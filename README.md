@@ -42,7 +42,7 @@
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=figma,github,html,css,vue,react,sql" />
+    <img src="https://skillicons.dev/icons?i=figma,github,html,css,vue,react" />
     <img src="https://skillicons.dev/icons?i=nodejs,javascript,typescript"/><br>
 </div>
 
