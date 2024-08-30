@@ -29,7 +29,7 @@
 
 👀 I'm interested in development and designs
 
-🌱 I'm currently learning Vue.js
+🌱 I'm currently learning React.js
 
 💞️ I’m looking to collaborate on creation of games, both artistically and programming
 
