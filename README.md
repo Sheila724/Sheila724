@@ -1,63 +1,76 @@
-<div id="header" align="center">
-  
-  <h1 align="center">
-      <img src="https://media.tenor.com/NlnpmndaKagAAAAi/mixflavor-coko.gif" width="100"/>
-      <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hello+There!+👋;+I'm+Sheila+Alves!;" />
-      <!--<img src="https://www.shareicon.net/data/128x128/2016/11/21/854790_kenobi_512x512.png" width="50px">-->
-      <img width="67" height="67" src="https://img.icons8.com/external-flat-icons-inmotus-design/67/external-Obi-Wan-star-wars-flat-icons-inmotus-design.png" alt="external-Obi-Wan-star-wars-flat-icons-inmotus-design"/>
-  </h1>
-  
-  <div id="badges">
-    <a href="https://www.linkedin.com/in/sheila-alves-952053102/">
-      <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-    </a>
-    <a href="https://www.instagram.com/heysheila_alves">
-      <img src="https://img.shields.io/badge/Instagram-blueviolet?style=for-the-badge&logo=instagram&logoColor=white" alt="Youtube Badge"/>
-    </a>
-  </div>
-  <img src="https://komarev.com/ghpvc/?username=Sheila724&style=flat-square&color=7AB1F0" alt=""/>
-  <br/>
-  
-  
+<div align="center">
+  <img src="https://media.tenor.com/NlnpmndaKagAAAAi/mixflavor-coko.gif" width="80"/>
+  <h1>👋 Olá, sou Sheila Alves</h1>
+  <h3>Analista NOC Nível 1 &nbsp;•&nbsp; Entusiasta DevOps &nbsp;•&nbsp; Infraestrutura e Monitoramento</h3>
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=50&duration=4000&lines=DevOps+em+evolução...;Automação+%7C+Monitoramento+%7C+CI%2FCD;Construindo+ambientes+reais" />
 </div>
 
-<br/>
+---
+
+## 🚀 Sobre Mim
+
+Analista NOC com foco em monitoramento, troubleshooting e resposta a incidentes.  
+Construindo infraestrutura real em ambientes homelab para evoluir para Engenheira DevOps.
+
+---
+
+## 🛠️ Stack DevOps
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=linux,docker,git,github,githubactions,python" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=nodejs,typescript,postgresql,mysql" />
+</div>
+
+---
+
+## 🏆 Badges DevOps Profissionais
 
 <div align="center">
 
-👋 Hi, I’m Sheila
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
-👀 I'm interested in development and designs
+</div>
 
-🌱 I'm currently learning React.js
+---
 
-💞️ I’m looking to collaborate on creation of games, both artistically and programming
+## 📌 Projetos em Destaque
 
-📫 How to reach me sheilynhaalves@gmail.com or https://www.instagram.com/heysheila_alves
+**🔹 [Simulação de Mensageria com RabbitMQ](https://github.com/Sheila724/projeto-mensageria)**  
+Sistema de filas com simulação de falhas, logs e observabilidade.
 
- </div>
+**🔹 [Automação Azure VM](https://github.com/Sheila724/AzureVM)**  
+Script de automação completo para provisionamento e gerenciamento de máquinas virtuais na Azure.
 
- <hr/>
- 
-<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
-<br/>
+**🔹 Laboratório DevOps (Homelab)**  
+*Em construção* — Simulação completa de infraestrutura real com Docker + CI/CD + monitoramento.
+
+---
+
+## 📊 Estatísticas do GitHub
+
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=figma,github,html,css,vue,react" />
-    <img src="https://skillicons.dev/icons?i=nodejs,javascript,typescript,python"/><br>
-</div>
-
-<br/>
-<hr/>
-
-<h2 align="center">⚡ Stats ⚡</h2>
-<br>
-<div align=center>
-  <img width=390 src="https://github-readme-streak-stats-salesp07.vercel.app/?user=Sheila724&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
-  <img width=390 src="https://github-readme-stats-salesp07.vercel.app/api?username=Sheila724&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
+  <img width="390" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=Sheila724&count_private=true&theme=dracula&border_radius=10&locale=pt-br" alt="streak stats"/>
+  <img width="390" src="https://github-readme-stats-salesp07.vercel.app/api?username=Sheila724&count_private=true&show_icons=true&theme=dracula&rank_icon=github&border_radius=10&locale=pt-br" alt="readme stats"/>
   <br/>
-  <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=Sheila724&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
+  <img width="330" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=Sheila724&hide=html,css,scss&layout=compact&theme=dracula&border_radius=10&locale=pt-br" alt="top langs"/>
 </div>
 
-<br/><br/>
+---
 
-<hr/>
+## 📫 Contato
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/sheila-alves-952053102/)
+- 📧 sheila.araujo486@gmail.com
+
+---
+
+<div align="center">
+  <i>🚀 Construindo habilidades reais de infraestrutura — um pipeline por vez.</i>
+</div>
