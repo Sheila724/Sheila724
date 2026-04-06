@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://media.tenor.com/NlnpmndaKagAAAAi/mixflavor-coko.gif" width="80"/>
   <h1>👋 Olá, sou Sheila Alves</h1>
-  <h3>Analista NOC Nível 1 &nbsp;•&nbsp; Entusiasta DevOps &nbsp;•&nbsp; Infraestrutura e Monitoramento</h3>
+  <h3>Analista Suporte técnico &nbsp;•&nbsp; Entusiasta DevOps &nbsp;•&nbsp; Infraestrutura e Monitoramento</h3>
   <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=50&duration=4000&lines=DevOps+em+evolução...;Automação+%7C+Monitoramento+%7C+CI%2FCD;Construindo+ambientes+reais" />
 </div>
 
