@@ -9,7 +9,7 @@
 
 ## 🚀 Sobre Mim
 
-Analista NOC com foco em monitoramento, troubleshooting e resposta a incidentes.  
+Suporte técnico avançado com foco em monitoramento, troubleshooting e resposta a incidentes.  
 Construindo infraestrutura real em ambientes homelab para evoluir para Engenheira DevOps.
 
 ---
