@@ -9,7 +9,7 @@
 
 Analista de Suporte Técnico com foco em **monitoramento, troubleshooting e resposta a incidentes**, construindo infraestrutura real em ambiente homelab para evoluir para Engenheira DevOps.
 
-🎯 **Em transição de Suporte para DevOps/SRE — aberta a oportunidades júnior em infraestrutura, observabilidade e cloud.**
+🎯 **Em transição de Suporte para DevOps/SRE aberta a oportunidades júnior em infraestrutura, observabilidade e cloud.**
 
 ## 📌 Projetos em Destaque
 
