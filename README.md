@@ -24,6 +24,13 @@ Infraestrutura real rodando em **Proxmox** (LXC + VMs): DNS com Pi-hole, ingress
 Sistema de automação em **Python** que opera uma caixa de suporte de e-mail de ponta a ponta: monitoramento via IMAP, alertas de **SLA** por WhatsApp, rotação de plantão *(on-call)*, logging em Google Sheets e relatórios automatizados.
 - 🧩 Processamento idempotente, refresh automático de token OAuth e caminhos de *fallback* — foco em confiabilidade.
 
+**🔹 [NOC Horizon: Monitoramento Global em 3D](https://github.com/Sheila724/noc-horizon.git)**
+
+Um Centro de Comando interativo que transforma logs e dados estáticos do Zabbix em uma experiência visual em tempo real. Projetado para otimizar rotinas de suporte e infraestrutura, o painel centraliza o status da rede global.
+- **Visão 3D Interativa:** Globo renderizado com D3.js mostrando a saúde dos nós e latência em tempo real.
+- **Automação de Resposta:** Integração de alertas críticos e resoluções direto no WhatsApp.
+- **Stack Tecnológica:** Python (Backend), Zabbix API, JavaScript (Frontend/D3.js) e Webhooks.
+
 **🔹 [Simulação de Mensageria com RabbitMQ](https://github.com/Sheila724/projeto-mensageria)**
 
 Sistema de filas com simulação de falhas, logs e observabilidade.
