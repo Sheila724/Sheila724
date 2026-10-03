@@ -1,76 +1,80 @@
 <div align="center">
-  <img src="https://media.tenor.com/NlnpmndaKagAAAAi/mixflavor-coko.gif" width="80"/>
   <h1>👋 Olá, sou Sheila Alves</h1>
-  <h3>Analista de Suporte Técnico &nbsp;•&nbsp; Em transição para DevOps/SRE</h3>
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=50&duration=4000&lines=DevOps+em+evolução...;Automação+%7C+Monitoramento+%7C+CI%2FCD;Construindo+ambientes+reais" />
+  <h3>Suporte Técnico & Infraestrutura • Monitoramento, observabilidade e SRE</h3>
+  <img alt="Suporte técnico e infraestrutura | Monitoramento, Observabilidade e SRE | Zabbix, Proxmox, Docker, CI/CD | Construindo ambientes reais" src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=600&height=50&duration=3500&pause=1000&lines=Suporte+técnico+e+infraestrutura;Monitoramento+%7C+Observabilidade+%7C+SRE;Zabbix+%7C+Proxmox+%7C+Docker+%7C+CI%2FCD;Construindo+ambientes+reais" />
 </div>
 
-## 🚀 Sobre Mim
+## 🚀 Sobre mim
 
-Analista de Suporte Técnico com foco em **monitoramento, troubleshooting e resposta a incidentes**, construindo infraestrutura real em ambiente homelab para evoluir para Engenheira DevOps.
+Trabalho com suporte técnico e infraestrutura (Linux, Proxmox, redes) e construo ferramentas de monitoramento e automação para resolver problemas reais de operação: **detectar falhas cedo, medir confiabilidade e reduzir trabalho manual**.
 
-🎯 **Em transição de Suporte para DevOps/SRE aberta a oportunidades júnior em infraestrutura, observabilidade e cloud.**
+🎯 Procuro minha próxima posição em **NOC / infraestrutura / observabilidade / SRE**.
+📍 Aberta a mudança de cidade e de país.
 
-## 📌 Projetos em Destaque
+## 📌 Projetos em destaque
 
-**🔹 [Laboratório DevOps — Homelab](https://github.com/Sheila724/homelab)** &nbsp;`⭐ projeto principal`
+### 🛰️ [NOC Horizon — Monitoramento global sobre Zabbix](https://github.com/Sheila724/noc-horizon) `⭐ projeto principal`
 
-Infraestrutura real rodando em **Proxmox** (LXC + VMs): DNS com Pi-hole, ingress seguro via Cloudflare Tunnel, automação com n8n e aplicações self-hosted (Dolibarr, Anytype).
-- 🧩 Serviços segmentados em containers, acesso remoto zero-trust e automação de workflows.
-- 📐 <img width="1130" height="613" alt="image" src="https://github.com/user-attachments/assets/807f1120-60d4-4b63-b7bc-cc9b5fdd8a47" />
+Painel NOC com globo interativo (D3.js) que consome a API do Zabbix e mostra a saúde por local e por host, incluindo hosts **"sem dados"** (falha silenciosa).
 
-**🔹 [Hermes Agent — Automação de Suporte](https://github.com/Sheila724/hermes)** &nbsp;`⭐ destaque`
+- 📲 **Alertas no WhatsApp:** problemas e resoluções do Zabbix chegam por mensagem, com host, trigger, duração e hora
+- 📈 **Confiabilidade:** disponibilidade de 7/30 dias, SLO, orçamento de erro, MTTR e MTTA a partir do histórico de eventos
+- 🔐 **Segurança:** login OIDC no Apache, token somente leitura, CSP, backend apenas em localhost
+- ✅ **CI:** ruff, pytest, bandit, pip-audit, gitleaks + Dependabot; runbook e postmortem blameless em `docs/`
+- ⚡ **Teste em 1 minuto:** `docker compose up -d --build` (modo demo, sem Zabbix)
+- **Stack:** Python/Flask, Zabbix API, D3.js, Docker, Apache, Webhooks
 
-Sistema de automação em **Python** que opera uma caixa de suporte de e-mail de ponta a ponta: monitoramento via IMAP, alertas de **SLA** por WhatsApp, rotação de plantão *(on-call)*, logging em Google Sheets e relatórios automatizados.
-- 🧩 Processamento idempotente, refresh automático de token OAuth e caminhos de *fallback* — foco em confiabilidade.
+### 🧪 [Laboratório DevOps — Homelab](https://github.com/Sheila724/homelab)
 
-**🔹 [NOC Horizon: Monitoramento Global em 3D](https://github.com/Sheila724/noc-horizon.git)**
+Infraestrutura rodando em **Proxmox** (LXC + VMs): DNS com Pi-hole, acesso externo seguro via Cloudflare Tunnel, automação com n8n e aplicações self-hosted (Dolibarr, Anytype).
 
-Um Centro de Comando interativo que transforma logs e dados estáticos do Zabbix em uma experiência visual em tempo real. Projetado para otimizar rotinas de suporte e infraestrutura, o painel centraliza o status da rede global.
-- **Visão 3D Interativa:** Globo renderizado com D3.js mostrando a saúde dos nós e latência em tempo real.
-- **Automação de Resposta:** Integração de alertas críticos e resoluções direto no WhatsApp.
-- **Stack Tecnológica:** Python (Backend), Zabbix API, JavaScript (Frontend/D3.js) e Webhooks.
+- Serviços segmentados em containers, acesso remoto zero-trust e automação de workflows
 
-**🔹 [Simulação de Mensageria com RabbitMQ](https://github.com/Sheila724/projeto-mensageria)**
+<img width="700" alt="Diagrama da arquitetura do homelab: Proxmox, containers LXC/VMs, Pi-hole e Cloudflare Tunnel" src="https://github.com/user-attachments/assets/807f1120-60d4-4b63-b7bc-cc9b5fdd8a47" />
 
-Sistema de filas com simulação de falhas, logs e observabilidade.
+### 🤖 [Hermes Agent — Automação de suporte](https://github.com/Sheila724/hermes)
 
-**🔹 [Automação Azure VM](https://github.com/Sheila724/AzureVM)**
+Automação em **Python** que opera uma caixa de suporte por e-mail de ponta a ponta: monitoramento via IMAP, alertas de **SLA** por WhatsApp, rotação de plantão (*on-call*), logging em Google Sheets e relatórios automatizados.
 
-Script completo para provisionamento e gerenciamento de máquinas virtuais na Azure.
+- Processamento idempotente, refresh automático de token OAuth e caminhos de *fallback*, com foco em confiabilidade
 
-## 🛠️ Ferramentas & Tecnologias
+### Outros projetos
+
+- 📨 [Simulação de mensageria com RabbitMQ](https://github.com/Sheila724/projeto-mensageria): filas com simulação de falhas, logs e observabilidade
+- ☁️ [Automação Azure VM](https://github.com/Sheila724/AzureVM): script de provisionamento e gerenciamento de máquinas virtuais na Azure
+
+## 💼 Experiência e formação
+
+- **Suporte técnico, COM4 Telecomunicações:** atendimento e troubleshooting em infraestrutura e redes, com automação do fluxo de suporte
+- **Administração de sistemas:** conhecimento em gerenciando de infraestrutura em Proxmox
+- **Voluntária, Universo Prematuro:** gerencio o site e a infraestrutura técnica de uma organização que apoia famílias de bebês prematuros
+- **Formação:** Tecnologia em Desenvolvimento de Software Multiplataforma (DSM), FATEC Franca
+
+## 🛠️ Ferramentas & tecnologias
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=linux,docker,git,github,githubactions,python" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,typescript,postgresql,mysql" />
-</div>
 
-<div align="center">
-
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
+![Zabbix](https://img.shields.io/badge/Zabbix-CC2936?style=for-the-badge&logo=zabbix&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-</div>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
-## 📊 Estatísticas do GitHub
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-<div align="center">
-  <img width="390" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=Sheila724&count_private=true&theme=dracula&border_radius=10&locale=pt-br" alt="streak stats"/>
-  <img width="390" src="https://github-readme-stats-salesp07.vercel.app/api?username=Sheila724&count_private=true&show_icons=true&theme=dracula&rank_icon=github&border_radius=10&locale=pt-br" alt="readme stats"/>
-  <br/>
-  <img width="330" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=Sheila724&hide=html,css,scss&layout=compact&theme=dracula&border_radius=10&locale=pt-br" alt="top langs"/>
 </div>
 
 ## 📫 Contato
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/sheila-alves-952053102/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/sheila-alvesaraujo)
 - 📧 sheila.araujo486@gmail.com
-
-<div align="center">
-  <br/>
-  <i>🚀 Construindo habilidades reais de infraestrutura — um pipeline por vez.</i>
-</div>
