@@ -24,7 +24,7 @@ Painel NOC com globo interativo (D3.js) que consome a API do Zabbix e mostra a s
 - ⚡ **Teste em 1 minuto:** `docker compose up -d --build` (modo demo, sem Zabbix)
 - **Stack:** Python/Flask, Zabbix API, D3.js, Docker, Apache, Webhooks
 
-### 🚨 [Incidente Zero — Simulador de incidentes para DevOps/SRE](https://github.com/Sheila724/incidente-zero) `🆕 v0.1.0`
+### 🚨 [Incidente Zero — Simulador de incidentes para DevOps/SRE](https://github.com/Sheila724/incidente-zero) `🆕 v0.1.1` · [🌐 demo](https://incidente-zero.gapsaa.com.br)
 
 Simulador open source, em português, para quem está começando em infraestrutura: você recebe o alerta, entra num **Linux real com a falha injetada** e só passa se corrigir a **causa raiz**, não só o sintoma.
 
