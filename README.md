@@ -1,7 +1,7 @@
 <div align="center">
   <h1>👋 Olá, sou Sheila Alves</h1>
   <h3>Suporte Técnico & Infraestrutura • Monitoramento, observabilidade e SRE</h3>
-  <img alt="Suporte técnico e infraestrutura | Monitoramento, Observabilidade e SRE | Zabbix, Proxmox, Docker, CI/CD | Construindo ambientes reais" src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=600&height=50&duration=3500&pause=1000&lines=Suporte+técnico+e+infraestrutura;Monitoramento+%7C+Observabilidade+%7C+SRE;Zabbix+%7C+Proxmox+%7C+Docker+%7C+CI%2FCD;Construindo+ambientes+reais" />
+  <img alt="Suporte técnico e infraestrutura | Monitoramento, Observabilidade e SRE | Zabbix, Proxmox, Docker, CI/CD | Simulando incidentes reais" src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=600&height=50&duration=3500&pause=1000&lines=Suporte+técnico+e+infraestrutura;Monitoramento+%7C+Observabilidade+%7C+SRE;Zabbix+%7C+Proxmox+%7C+Docker+%7C+CI%2FCD;Simulando+incidentes+reais" />
 </div>
 
 ## 🚀 Sobre mim
@@ -23,6 +23,20 @@ Painel NOC com globo interativo (D3.js) que consome a API do Zabbix e mostra a s
 - ✅ **CI:** ruff, pytest, bandit, pip-audit, gitleaks + Dependabot; runbook e postmortem blameless em `docs/`
 - ⚡ **Teste em 1 minuto:** `docker compose up -d --build` (modo demo, sem Zabbix)
 - **Stack:** Python/Flask, Zabbix API, D3.js, Docker, Apache, Webhooks
+
+### 🚨 [Incidente Zero — Simulador de incidentes para DevOps/SRE](https://github.com/Sheila724/incidente-zero) `🆕 v0.1.0`
+
+Simulador open source, em português, para quem está começando em infraestrutura: você recebe o alerta, entra num **Linux real com a falha injetada** e só passa se corrigir a **causa raiz**, não só o sintoma.
+
+- 🖥️ **Interface web:** terminal real no navegador (WebSocket + PTY), monitoramento ao vivo, modo guiado com verificação automática, dicas, pontuação e MTTR pessoal
+- 🔥 **8 incidentes na trilha iniciante:** disco cheio, nginx quebrado, permissão negada por hardening, CPU 100%, porta ocupada, cron, SSH e inodes esgotados, cada um com uma armadilha e um postmortem (linha do tempo e 5 porquês)
+- 🔒 **Isolamento:** labs Ubuntu com systemd em containers **Sysbox**, com limite de CPU, memória e processos e partições `tmpfs` para os incidentes de disco
+- 📦 **Entrega:** binário único com os cenários embutidos, instalador com checksum, release multi-arquitetura e imagem no GHCR via GitHub Actions
+- ⚡ **Teste em 1 comando:** `curl -fsSL https://raw.githubusercontent.com/Sheila724/incidente-zero/main/install.sh | sh`
+- **Stack:** Go, Svelte, xterm.js, Docker, Sysbox, Bash, GitHub Actions
+<img width="700" alt="Incidente Zero: incidente de disco cheio resolvido, com terminal, monitoramento e verificação" src="https://github.com/user-attachments/assets/a5e1dfa8-0a20-4864-884f-f1753259e1ef" />
+
+
 
 ### 🧪 [Laboratório DevOps — Homelab](https://github.com/Sheila724/homelab)
 
@@ -63,6 +77,8 @@ Automação em **Python** que opera uma caixa de suporte por e-mail de ponta a p
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
