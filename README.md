@@ -2,6 +2,11 @@
   <h1>👋 Olá, sou Sheila Alves</h1>
   <h3>Suporte Técnico & Infraestrutura • Monitoramento, observabilidade e SRE</h3>
   <img alt="Suporte técnico e infraestrutura | Monitoramento, Observabilidade e SRE | Zabbix, Proxmox, Docker, CI/CD | Simulando incidentes reais" src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=600&height=50&duration=3500&pause=1000&lines=Suporte+técnico+e+infraestrutura;Monitoramento+%7C+Observabilidade+%7C+SRE;Zabbix+%7C+Proxmox+%7C+Docker+%7C+CI%2FCD;Simulando+incidentes+reais" />
+
+  <p>
+    <a href="https://sheila.gapsaa.com.br"><img alt="Portfólio" src="https://img.shields.io/badge/Portf%C3%B3lio-sheila.gapsaa.com.br-5CD6EC?style=for-the-badge&labelColor=0C131C" /></a>
+    <a href="https://www.linkedin.com/in/sheila-alvesaraujo"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-sheila--alvesaraujo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  </p>
 </div>
 
 ## 🚀 Sobre mim
@@ -92,5 +97,6 @@ Automação em **Python** que opera uma caixa de suporte por e-mail de ponta a p
 
 ## 📫 Contato
 
+- 🌐 [Portfólio](https://sheila.gapsaa.com.br): todos os projetos, stack e trajetória, em português e inglês
 - 💼 [LinkedIn](https://www.linkedin.com/in/sheila-alvesaraujo)
 - 📧 sheila.araujo486@gmail.com
