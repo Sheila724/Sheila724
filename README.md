@@ -13,8 +13,7 @@
 
 Trabalho com suporte técnico e infraestrutura (Linux, Proxmox, redes) e construo ferramentas de monitoramento e automação para resolver problemas reais de operação: **detectar falhas cedo, medir confiabilidade e reduzir trabalho manual**.
 
-🎯 Procuro minha próxima posição em **NOC / infraestrutura / observabilidade / SRE**.
-📍 Aberta a mudança de cidade e de país.
+🎯 Áreas de interesse: **NOC, infraestrutura, observabilidade e SRE**.
 
 ## 📌 Projetos em destaque
 
