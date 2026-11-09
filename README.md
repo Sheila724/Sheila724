@@ -50,11 +50,15 @@ Infraestrutura rodando em **Proxmox** (LXC + VMs): DNS com Pi-hole, acesso exter
 
 <img width="700" alt="Diagrama da arquitetura do homelab: Proxmox, containers LXC/VMs, Pi-hole e Cloudflare Tunnel" src="https://github.com/user-attachments/assets/807f1120-60d4-4b63-b7bc-cc9b5fdd8a47" />
 
-### 🤖 [Hermes Agent — Automação de suporte](https://github.com/Sheila724/hermes)
+### 📬 Monitor de atendimento por e-mail `🔒 privado`
 
-Automação em **Python** que opera uma caixa de suporte por e-mail de ponta a ponta: monitoramento via IMAP, alertas de **SLA** por WhatsApp, rotação de plantão (*on-call*), logging em Google Sheets e relatórios automatizados.
+Garante que nenhum e-mail de cliente fique sem resposta: lê as caixas de atendimento por **IMAP**, avisa a equipe no **WhatsApp**, cobra por prazo e mostra a fila e os indicadores num painel web.
 
-- Processamento idempotente, refresh automático de token OAuth e caminhos de *fallback*, com foco em confiabilidade
+- ⏰ **SLA:** cobranças em 30 min, 1 h, 2 h e 4 h; urgentes (serviço fora do ar, invasão) a partir de 10 min
+- 🤖 **IA com limites:** classificação de tipo e urgência com fallback local; comandos no WhatsApp via **MCP** + Hermes Agent, tratando o conteúdo dos e-mails como dado, nunca como instrução
+- 🔐 **Painel:** quatro perfis de acesso com filtro no servidor, indicadores clicáveis, exportação CSV e modo TV
+- 🛡️ **Confiabilidade:** avisos em fila no banco (nada se perde se a ponte cair), 92 testes, deploy via GitHub Actions, backup diário
+- **Stack:** Python, FastAPI, PostgreSQL, SQLAlchemy, MCP, Docker, Caddy
 
 ### Outros projetos
 
